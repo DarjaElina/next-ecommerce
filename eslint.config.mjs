@@ -19,7 +19,7 @@ const eslintConfig = [
       "build/**",
       "lib/generated/**",
     ],
-  }, 
+  },
   ...compat.extends("next/core-web-vitals", "next/typescript"),
 ];
 
